@@ -20,11 +20,16 @@ img {
 }
 
 @media screen and (max-width: 600px) {
+  body, a {
+    justify-content: unset;
+  }
+
   p {
     font-size: 20px;
   }
 
   img {
+    margin: 1em auto 0;
     width: 80%;
   }
 }
